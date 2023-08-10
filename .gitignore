@@ -1,6 +1,6 @@
 *.html
 *.json
-*.md
+swe-ebook.*
 *.pdf
 abseil.io/
 *.epub
