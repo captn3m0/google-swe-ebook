@@ -23,7 +23,7 @@ jobs:
       - name: Build and Push Docker Image
         run: |
           docker buildx create --use
-          docker buildx build --platform linux/amd64,linux/arm64 -t docker.pkg.github.com/${{ github.repository }}/<image-name>:latest .
+          docker buildx build --platform linux/amd64,linux/arm64 -t docker.pkg.github.com/${{ github.repository }}:latest .
           docker buildx stop
 
       - name: Push Docker Image Tags
