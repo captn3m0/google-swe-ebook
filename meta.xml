@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package unique-identifier="uuid_id" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier opf:scheme="ISBN-13">9781492082798</dc:identifier>
+    <dc:identifier opf:scheme="ISBN-10">1492082791</dc:identifier>
+    <dc:creator opf:role="aut">Titus Winters</dc:creator>
+    <dc:creator opf:role="aut">Tom Manshreck</dc:creator>
+    <dc:creator opf:role="aut">Hyrum Wright</dc:creator>
+    <dc:title id="title">Software Engineering at Google</dc:title>
+    <dc:title id="subtitle">Lessons Learned from Programming Over Time</dc:title>
+    <meta refines="#subtitle" property="title-type">subtitle</meta>
+    <dc:language>eng</dc:language>
+    <dc:publisher>O'Reilly Media</dc:publisher>
+    <dc:date>2020-03-16</dc:date>
+    <dc:identifier id="cover-url">https://covers.openlibrary.org/b/id/10450993-L.jpg</dc:identifier>
+  </metadata>
+</package>
