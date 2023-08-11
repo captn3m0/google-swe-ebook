@@ -6,7 +6,11 @@ Generates a EPUB/MOBI/PDF for the Google SWE Book. Original sources are download
 
 If you like the book, please [purchase a copy](https://www.oreilly.com/library/view/software-engineering-at/9781492082781/).
 
-# Usage
+An official (older) PDF copy of the book is also available at <https://raw.githubusercontent.com/abseil/abseil.github.io/cd13b21daa6ec74155548241241693198c1b1264/resources/swe_at_google.2.pdf>.
+
+If you liked this project, you might also like [Google SRE Ebook Generator](https://github.com/captn3m0/google-sre-ebook).
+
+## Usage
 
 You must have `pandoc` and `python3` installed.
 
@@ -43,6 +47,10 @@ docker run --volume $(pwd):/src/output captn3m0/google-swe-ebook --defaults=epub
 
 This uses a pandoc configuration, along with a small Python filter
 (writtein in panflute) to generate decently good PDF/EPUB files.
+
+## Known Issues
+
+PDF links are slightly wonky.
 
 ## License
 
